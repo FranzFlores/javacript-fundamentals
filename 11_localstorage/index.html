@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LocalStorage</title>
+</head>
+
+<body>
+    <h1>LocalStorage</h1>
+    <p>
+        LocalStorage es una característica del objeto window en JavaScript que permite almacenar y recuperar datos de
+        manera persistente en el navegador web. Es un tipo de almacenamiento local de datos que se puede utilizar para
+        almacenar información que el usuario ha ingresado en un formulario o para almacenar la configuración del usuario
+        en una aplicación web.
+    </p>
+    <hr>
+    <h2>Ejercicio LocalStorage</h2>
+
+    <h3>Añade tu pelicula</h3>
+    <form id="formMovie">
+        <label for="title">título de película</label>
+        <input type="text" id="title" name="title" />
+        <button type="submit">Guardar</button>
+    </form>
+
+    <h3>Peliculas</h3>
+    <div id="movies">
+        <ul id="movies-list">
+        </ul>
+    </div>
+
+    <h1>Borra tu pelicula</h1>
+    <form id="formDeleteMovie">
+        <label for="title-delete">título de película</label>
+        <input type="text" id="title-delete" name="title-delete" />
+        <button type="submit">Borrar</button>
+    </form>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
